@@ -53,28 +53,35 @@
 			</tr>
 		</table>
 		<br>
-
-		<div id="form">
+		<div>
 			<h5><i>Register your interest</i></h5>
-			<form action="#">
-				
-				<label for="name">Your name:</label>
-				<input type="text" id="name" name="name" /><br />
-				<label for="email">Last name:</label>
-				<input type="email" id="email" name="email" /><br />
-				<br />
-				<label for="register">Your closest center:</label>
-				<select name="register" id="register">
-					<option value="New-York">New York</option>
-					<option value="Chicago">Chicago</option>
-					<option value="San-Francisco">San Francisco</option></select><br />
-				<br />
-				<label for="reg-center">Are you a member?</label>
-				<input type="radio" name="yes_no" >Yes</input>
-				<input type="radio" name="yes_no">No</input>
+			<form>
+				<div>
+					<label for="name">Your name:</label>
+					<input type="text" id="name" name="name" /><br />
+				</div>
+				<div>
+					<label for="email">Last name:</label>
+					<input type="email" id="email" name="email" /><br />
+				</div>
 				<br>
-	
+				<div>
+					<label for="register">Your closest center:</label>
+					<select name="register" id="register">
+						<option value="New-York">New York</option>
+						<option value="Chicago">Chicago</option>
+						<option value="San-Francisco">San Francisco</option>
+					</select><br />
+				</div>
+				<br>
+				<div>
+					<label for="reg-center">Are you a member?</label>
+					<input type="radio" name="yes_no" >Yes</input>
+					<input type="radio" name="yes_no">No</input>
+				</div>
+					
 				<input type="submit" value="Register" />
+				
 			</form>
 		</div>
 	</body>

@@ -1,6 +1,7 @@
 body {
 	background-color: rgb(235, 235, 235);
 }
+
 li > label {
 	color: white;
 	background-color: green;
@@ -8,6 +9,8 @@ li > label {
 	border: solid 1px black;
 	margin-right: 15px;
 }
+
+/* TABLE */
 
 table {
 	border-collapse: collapse;
@@ -17,6 +20,8 @@ table,
 th,
 td {
 	border: 1px grey solid;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 tr:nth-child(even) {
@@ -28,28 +33,41 @@ tr:nth-child(odd) {
 
 table th {
 	background-color: rgb(94, 154, 209);
+}
+
+table th:first-child,
+table th:last-child {
 	border-radius: 10px;
 }
 
-#form {
+/* FORM */
+
+body > div {
 	background-color: white;
 	border: 1px solid black;
 	position: relative;
 	width: fit-content;
 	padding: 10px;
+	padding-right: 30px;
 }
 
-#form > h5 {
+body > div > h5 {
 	margin-top: -18px;
 	margin-left: 10px;
 	background-color: rgb(251, 248, 248);
 	width: fit-content;
 }
 
+form > div *:first-child,
+select > option {
+	display: inline-block;
+	min-width: 200px;
+}
+
 input[type="submit"] {
 	color: white;
 	position: absolute;
-	left: 180px;
+	left: 330px;
 	bottom: -30px;
 	background-color: green;
 	border-radius: 10px;
