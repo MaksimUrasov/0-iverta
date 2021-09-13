@@ -1,3 +1,57 @@
 body {
-	color: darkblue;
+	background-color: rgb(235, 235, 235);
+}
+li > label {
+	color: white;
+	background-color: green;
+	border-radius: 50%;
+	border: solid 1px black;
+	margin-right: 15px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 1px grey solid;
+}
+
+tr:nth-child(even) {
+	background-color: #b4deeb;
+}
+tr:nth-child(odd) {
+	background-color: #ccebf5;
+}
+
+table th {
+	background-color: rgb(94, 154, 209);
+	border-radius: 10px;
+}
+
+#form {
+	background-color: white;
+	border: 1px solid black;
+	position: relative;
+	width: fit-content;
+	padding: 10px;
+}
+
+#form > h5 {
+	margin-top: -18px;
+	margin-left: 10px;
+	background-color: rgb(251, 248, 248);
+	width: fit-content;
+}
+
+input[type="submit"] {
+	color: white;
+	position: absolute;
+	left: 180px;
+	bottom: -30px;
+	background-color: green;
+	border-radius: 10px;
+	border-color: rgb(170, 170, 170);
 }

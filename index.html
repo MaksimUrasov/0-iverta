@@ -4,10 +4,78 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>uzduotis0</title>
+		<title>Poetry workshops</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<p>hello</p>
+		<h1>Poetry workshops</h1>
+		<p>
+			We will be conducting a number of poetry workshops and symposiums
+			throughout the year
+		</p>
+		<p>Please note that the following events are free to members:</p>
+		<ul style="list-style-type:none;" >
+			<li><label>+</label>A Poethic Perspective</li>
+			<li><label>+</label>Walt Whitman at War</li>
+			<li><label>+</label>Found poems and Outsider Poetry</li>
+		</ul>
+
+		<table>
+			<tr>
+				<th></th>
+				<th>New York</th>
+				<th>Chicago</th>
+				<th>San Francisco</th>
+			</tr>
+			<tr>
+				<td>A Poethic Perspective</td>
+				<td>Sat, 4 Feb 2012 11am-2pm</td>
+				<td>Sat, 3 Mar 2012 11am-2pm</td>
+				<td>Sat, 17 Mar 2012 11am-2pm</td>
+			</tr>
+			<tr>
+				<td>Walt Whitman at War</td>
+				<td>Sat, 7 Feb 2012 11am-2pm</td>
+				<td>Sat, 5 Feb 2012 11am-2pm</td>
+				<td>Sat, 19 Feb 2012 11am-2pm</td>
+			</tr>
+			<tr>
+				<td>Found poems and Outsider Poetry</td>
+				<td>Sat, 7 Feb 2012 11am-2pm</td>
+				<td>Sat, 5 Feb 2012 11am-2pm</td>
+				<td>Sat, 19 Feb 2012 11am-2pm</td>
+			</tr>
+			<tr>
+				<td>Natural Death: An Exloration</td>
+				<td>Sat, 4 Feb 2012 11am-2pm</td>
+				<td>Sat, 8 Feb 2012 11am-2pm</td>
+				<td>Sat, 15 Feb 2012 11am-2pm</td>
+			</tr>
+		</table>
+		<br>
+
+		<div id="form">
+			<h5><i>Register your interest</i></h5>
+			<form action="#">
+				
+				<label for="name">Your name:</label>
+				<input type="text" id="name" name="name" /><br />
+				<label for="email">Last name:</label>
+				<input type="email" id="email" name="email" /><br />
+				<br />
+				<label for="register">Your closest center:</label>
+				<select name="register" id="register">
+					<option value="New-York">New York</option>
+					<option value="Chicago">Chicago</option>
+					<option value="San-Francisco">San Francisco</option></select><br />
+				<br />
+				<label for="reg-center">Are you a member?</label>
+				<input type="radio" name="yes_no" >Yes</input>
+				<input type="radio" name="yes_no">No</input>
+				<br>
+	
+				<input type="submit" value="Register" />
+			</form>
+		</div>
 	</body>
 </html>
